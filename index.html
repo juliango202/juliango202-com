@@ -3,71 +3,11 @@
   <head>
     <meta charset=utf-8>
     <title>Juliango202</title>
-    <style>
-      body { background: rgb(253, 253, 253); color: rgb(10, 10, 10); font-family: monospace; line-height: 1.4; }
-
-      a { outline:none !important; font-weight:bold; text-decoration:none; }
-      a:link {color:#c00;}
-      a:visited {color:#606;}
-      a:hover {color:#606; text-decoration:underline;}
-      a:active {color:#900; outline:none;}
-
-      img { max-width:100%; }
-
-      h2 { margin: 30px auto 8px auto; }
-      ul { padding-left: 18px; line-height: 1.3; }
-      ul > li { margin-bottom: 14px; }
-      ul > li:first-child { margin-top: 10px; }
-
-
-      #main { width: 640px; margin: 20px 0 0 20px; }
-      #links { padding-top: 20px; line-height: 1.3; }
-      #links a { font-size: smaller; }
-
-      #pic {
-          position: relative;
-          perspective: 800px;
-          float: left;
-          width: 100px; height: 100px;
-          margin-right: 5px;
-      }
-      #card {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        transform-style: preserve-3d;
-        transition: transform 1s;
-      }
-
-      #card figure {
-        margin: 0;
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-      }
-
-      #card .front {
-        background: rgb(253, 253, 253);
-      }
-      #card .back {
-        background: rgb(253, 253, 253);
-        transform: rotateY( 180deg );
-      }
-
-      #card.flipped {
-        transform: rotateY( 180deg );
-      }
-
-      #news {
-        margin-top: 30px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="site.css">
   </head>
   <body>
     <div id="main">
-      <section id="pic">
+      <section id="pic" class="card-ct">
         <div id="card">
           <figure class="front"><img alt="avatar picture" src="avatar.png"></figure>
           <figure class="back"><img alt="profile picture" src="me.png"></figure>
@@ -82,8 +22,8 @@
       </div>
       <div style="clear: both;"></div>
 
-      <p id="news">
-        2018.03.15 - <a href="job">I'm currently available for a job</a>
+      <p style="margin-top: 30px;">
+        2018.03.15 - <a href="job.html">I'm currently available for a job</a>
       </p>
 
       <h2>Welcome</h2>
@@ -93,6 +33,7 @@
       <li><a href="/terrainver/">TerrainVer, Worms-style cartoon terrain in JavaScript</a></li>
       <li><a href="https://github.com/juliango202/jijimaku">jijimaku, Generate dictionary definition inside subtitles</a></li>
       </ul>
+      Also: <a href="/projects.html">a list of past projects</a>
       </p>
 
       <h2>About</h2>
@@ -109,7 +50,7 @@
       Beside programming I like discovering foreign cultures, I've lived one year in the United States and eight years in Japan.<br>
       </p>
       <p>
-      You can contact me at <a href="mailto:juliango202@gmail.com">juliango202@gmail.com</a>
+      You can contact me at <a href="mailto:juliango202@gmail.com">juliango202@gmail.com</a>.
       </p>
     </div>
 

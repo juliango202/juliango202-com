@@ -1,0 +1,108 @@
+body {
+  background: rgb(253, 253, 253);
+  color: rgb(10, 10, 10);
+  font-family: monospace;
+  line-height: 1.4;
+}
+
+a { outline:none !important; font-weight:bold; text-decoration:none; }
+a:link {color:#c00;}
+a:visited {color:#606;}
+a:hover {color:#606; text-decoration:underline;}
+a:active {color:#900; outline:none;}
+
+
+img { max-width:100%; }
+
+h2, h3 { margin: 30px auto 8px auto; }
+ul { padding-left: 18px; line-height: 1.3; }
+ul > li { margin-bottom: 14px; }
+ul > li:first-child { margin-top: 10px; }
+
+
+#main { width: 640px; margin: 20px 0 0 20px; }
+#links { padding-top: 20px; line-height: 1.3; }
+#links a { font-size: smaller; }
+
+#pic {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 0.6em;
+}
+
+#pic.card-ct {
+    position: relative;
+    perspective: 800px;
+}
+#card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+#card figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+#card .front {
+  background: rgb(253, 253, 253);
+}
+#card .back {
+  background: rgb(253, 253, 253);
+  transform: rotateY( 180deg );
+}
+
+#card.flipped {
+  transform: rotateY( 180deg );
+}
+
+.home {
+  display: block;
+  font-size: 80%;
+  font-family:  monospace;
+  color: #aaa !important;
+  font-weight: normal;
+
+  text-align: center;
+}
+.home svg {
+  margin-bottom: -4px;
+  vertical-align: middle;
+}
+
+.kw {
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  padding: 2px;
+  text-shadow: 1px 1px 1px #eee;
+  font-size: 85%;
+}
+
+.event-date {
+  padding-top: 5px;
+  font-style: italic;
+  line-height: 1.3;
+  font-weight: bold;
+  margin-top: 20px;
+  border-top: 1px dotted #bbb;
+  padding-top: 10px;
+}
+h3 + .event-date {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.event-desc {
+  margin: 0.5em 0;
+  line-height: 1.3;
+}
+
