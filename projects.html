@@ -22,9 +22,6 @@
   I use this page to keep track of my main personal and professional projects.<br>
   A lot of these projects are not available online, but it can give an idea of the technologies I have experience with.
 </p>
-<p>
-(NOTE: originally in French, currently being translated)
-</p>
 
 <h3>Personal projects</h3>
 
@@ -34,7 +31,7 @@ Also with Hqx depixelizing and Halton sequences. See the link for a full explana
 <div class="proj-tech"><span class="kw">JavaScript(ES6)</span>, <span class="kw">WebGL</span>, <span class="kw">image processing</span></div>
 
 <div class="event-date">2017: jijimaku(<a href="https://github.com/juliango202/jijimaku">https://github.com/juliango202/jijimaku</a>)</div>
-<div class="event-desc">Java application for inserting dictionary definitions inside video subtitle files(for learning a foreign language). I used an open-source Japanese parsing library that I try to map to Universal Dependencies(UD). Also with a clean GUI and YAML configuration. </div>
+<div class="event-desc">Java application for inserting dictionary definitions inside video subtitle files(for learning a foreign language). I used an open-source parsing library based on deep learning that works with many languages. Also with a clean GUI and YAML configuration. </div>
 <div class="proj-tech"><span class="kw">Java 8</span>, <span class="kw">natural language processing</span></div>
 
 <div class="event-date first">2009-2014: Memobuild(<a href="www.memobuild.com">www.memobuild.com</a>)</div>
@@ -78,57 +75,57 @@ Interestingly, I organized documents in "components" that each had some JavaScri
 
 
 <div class="event-date">2014: popIn Discovery(<a href="http://www.popin.cc/discovery/">http://www.popin.cc/discovery/</a>)</div>
-<div class="event-desc">Application internet permettant aux gestionnaires de sites d'information d'ajouter des publicités en rapport avec leurs contenus. J'ai complètement réécrit le prototype plutôt instable vers une architecture MVC propre qui utilise un nano framework(doo PHP).</div>
+<div class="event-desc">Online application that news websites can use to manage targeted advertising. I rewrote the rather unstable prototype toward a clean MVC architecture that used a nano framework(doo PHP).</div>
 <div class="proj-tech"><span class="kw">PHP</span>, <span class="kw">MVC</span>, <span class="kw">MongoDB</span>, <span class="kw">Javascript</span>, <span class="kw">CSS</span>, <span class="kw">Bootstrap</span></div>
 
 
 <div class="event-date">2013: popIn Action</div>
-<div class="event-desc">Application internet permettant aux gestionnaires de sites de e-commerce d'ajouter des bannières ciblées à leur site mobile pour engager les visiteurs.</div>
+<div class="event-desc">Online application that e-commerce brands can use to manage targeted ad campaigns for their mobile website.</div>
 <div class="proj-tech"><span class="kw">PHP</span>, <span class="kw">MongoDB</span>, <span class="kw">Javascript</span>, <span class="kw">CSS</span>, <span class="kw">Bootstrap</span></div>
 
 <div class="event-date">2012-2013: popIn Bannerbuilder</div>
-<div class="event-desc">Application internet permettant de créer et servir des bannières publicitaires. L'utilisateur choisit entre plusieurs modèles de bannières et peut remplacer les images ou modifier les règles CSS grâce à une interface simple. Les bannières choisies sont ensuite compilées et enregistrées sur Amazon S3 prêtes à être servies aux utilisateurs.</div>
+<div class="event-desc">Online application to create customized banner ads. The user can choose between several banner templates, upload custom images, and modify CSS rules through a simple interface. The choices are then compiled to banners stored in Amazon S3 ready to be served.</div>
 <div class="proj-tech"><span class="kw">PHP</span>, <span class="kw">MongoDB</span>, <span class="kw">Javascript</span>, <span class="kw">jQuery</span>, <span class="kw">CSS</span>, <span class="kw">Amazon S3</span>, <span class="kw">Ant build</span></div>
 
-<div class="event-date">2012: Classification de textes</div>
-<div class="event-desc">Programme pour trouver automatiquement à quelle catégorie(Sport, Business, Divertissement,...) appartient un article d'actualité. Pour la segmentation de textes japonais j'ai utilisé notre librairie maison, et pour la classification le code du livre <a href="http://www.manning.com/marmanis/">Algorithms of the intelligent Web</a>. Sur nos données de test, le taux de réussite était de 92%.</div>
+<div class="event-date">2012: Text classification</div>
+<div class="event-desc">Program that automatically categorizes news articles(Sport, Business, Politics,...). I used an in-house library for segmenting Japanese text, and the classification part was done using code from the book <a href="http://www.manning.com/marmanis/">Algorithms of the intelligent Web</a>. With our test dataset, the accuracy rate was 92%.</div>
 <div class="proj-tech"><span class="kw">Machine learning</span>, <span class="kw">Java</span>, <span class="kw">Eclipse</span>, <span class="kw">Javascript</span>, <span class="kw">jQuery</span>, <span class="kw">CSS</span>, <span class="kw">Amazon S3</span></div>
 
-<div class="event-date">2012: Calcul de similarité entre articles</div>
-<div class="event-desc">Programme analysant les relations entre articles d'un site de vente en ligne afin de calculer l'information "Les visiteurs ayant vu cet article ont également vu ...". Le script C/SQLite qui transformait les masses de données dans un format compréhensible par la librairie Mahout pouvait analyser 67000 lignes de logs par seconde.</div>
+<div class="event-date">2012: Compute similarity between articles</div>
+<div class="event-desc">Program that analyzes the relations between articles of an online shopping website to compute the information "...". The C/SQLite script that processed our logs to feed the Mahout library could process 67000 lines per second.</div>
 <div class="proj-tech"><span class="kw">Machine learning</span>, <span class="kw">Mahout</span>, <span class="kw">Java</span>, <span class="kw">C</span>, <span class="kw">Sqlite</span></div>
 
 <div class="event-date">2011: Simple login</div>
-<div class="event-desc">Pour un projet avec Reuters Japan, développement d'un simple système de login entièrement basé sur des cookies. L'authenticité des cookies était vérifiée via <a href="http://en.wikipedia.org/wiki/Hash-based_message_authentication_code">HMAC</a>.</div>
+<div class="event-desc">For a project with Reuters Japan, I developed a simple login system based on cookies. Cookie authenticity was verified using <a href="http://en.wikipedia.org/wiki/Hash-based_message_authentication_code">HMAC</a>.</div>
 <div class="proj-tech"><span class="kw">PHP</span>, <span class="kw">Javascript</span></div>
 
-<div class="event-date">2008: Analytics et CSS sprites</div>
-<div class="event-desc">Script qui analyse les fichiers logs du serveur Apache et génère des pages web présentant des graphes d'analytics. Également un script pour générer automatiquement des sprites CSS à partir d'un répertoire d'images.</div>
+<div class="event-date">2008: Analytics and CSS sprites</div>
+<div class="event-desc">Script that analyzes our Apache server logs and generate an HMTL page with analytics information. Also a script to automatically generate CSS sprites from a directory containing images.</div>
 <div class="proj-tech"><span class="kw">Ruby</span>, <span class="kw">CSS</span></div>
 
-<div class="event-date">2008: Muscles en 3D</div>
-<div class="event-desc">Recherche et implementation d'une méthode haute performance pour afficher un rendu 3D temps-réel de muscles en mouvement. Ma méthode utilisant des cylindres et vertex arrays était 50 fois plus rapide que la méthode utilisée précédemment par la compagnie et basée sur des sphères.</div>
+<div class="event-date">2008: 3D muscles</div>
+<div class="event-desc">Research and implementation of a high performance method to display muscles movement in real-time 3D. My method using cylinders and vertex arrays was 50 times faster than the method based on spheres that was previously used in the company.</div>
 <div class="proj-tech"><span class="kw">C++</span>, <span class="kw">OpenGL</span></div>
 
-<div class="event-date">2007: Jeux pour réhabilitation</div>
-<div class="event-desc">Travail sur une application utilisée pour la réhabilitation musculoskeletal, et tournant sous une version temps-réel de Linux. Développement de l'interface utilisateur et de simple jeux de réhabilitation basés sur OpenGL. Le client était un centre de réhabilitation à Osaka.</div>
+<div class="event-date">2007: Rehabilitation games</div>
+<div class="event-desc">Worked on an application used in musculoskeletal rehabilitation that was running on a real-time Linux distribution. Developed the user interface and simple rehabilitation games based on OpenGL. The client was a rehabilitation center based in Osaka.</div>
 <div class="proj-tech"><span class="kw">C++</span>, <span class="kw">OpenGL</span>, <span class="kw">wxWidgets</span></div>
 
-<div class="event-date">2007: Calibration caméra et AR</div>
-<div class="event-desc">Travail sur les méthodes de calibration de caméra, et développement d'un algorithme pour reconnaître et suivre en temps-réel un motif spécifique, avec quelques fonctionnalités de Réalité Augmentée.</div>
+<div class="event-date">2007: Camera calibration and AR</div>
+<div class="event-desc">Worked on camera calibration methods, and developed an algorithm to track in real-time an object with a specific pattern, with a few Augmented Reality features.</div>
 <div class="proj-tech"><span class="kw">C++</span>, <span class="kw">OpenCV</span></div>
 
 <h3>University projects</h3>
-<div class="event-date">2006: Indexation de kanjis</div>
-<div class="event-desc">Développement de deux applications Web: une pour lire et écrire dans une simple base de données de sinogrammes et de leurs composants. L'autre pour retrouver des sinogrammes à partir d'une liste composants.</div>
+<div class="event-date">2006: Kanji/sinograph indexation</div>
+<div class="event-desc">Developed two web applications: one to read and write a simple database of sinographs and their components. The other to retrieve sinographs from a list of components.</div>
 <div class="proj-tech"><span class="kw">html</span>, <span class="kw">CSS</span>, <span class="kw">Javascript</span>, <span class="kw">Ajax</span></div>
 
 <div class="event-date">2005: GPURec(<a href="https://github.com/juliango202/GPURec">https://github.com/juliango202/GPURec</a>)</div>
-<div class="event-desc">Programme qui utilise la force de calcul des processeur graphiques(GPGPU) pour calculer des reconstructions volumétriques à partir des résultats de scanners médicaux. Note finale: 17,25/20.</div>
+<div class="event-desc">Program that uses the computational power of GPUs to reconstruct volumetric data from the output of a medical scanner(OSEM algorithm). Final grade: 17,25/20.</div>
 <div class="proj-tech"><span class="kw">GPGPU</span>, <span class="kw">C++</span>, <span class="kw">OpenGL</span></div>
 
-<div class="event-date">2004: Compilateur Java</div>
-<div class="event-desc">Pour un projet d'études, j'ai ecrit un compilateur complet(scanner, parser, abstract syntax tree, code generation) pour un langage type Java légèrement simplifié. Support de l'héritage de classes, de la priorité des opérateurs, et d'autres fonctionnalités avancées. Note finale: A (le maximum).</div>
+<div class="event-date">2004: Java compiler</div>
+<div class="event-desc">For a university project, I wrote an entire compiler(scanner, parser, abstract syntax tree, code generation) for a Java-like language slightly simplified. Support of class inheritance, priority of operators, and other advanced features. Final grade: A (maximum grade).</div>
 <div class="proj-tech"><span class="kw">Java</span></div>
 
 <a class="home" style="margin: 4em 0 2em;" href="/">
